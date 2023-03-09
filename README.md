@@ -1,8 +1,46 @@
-# JavaScript 101 Exercises
+# JavaScript Functions Lab
 
-You will be rewriting in JavaScript a series of exercises you've written in Python. There will also be a few new challenges. Because JavaScript's pop-up prompt is annoying (and doesn't work in Node.js), we won't take in any user input. Instead, you will write each exercise as a function, and any required input will be supplied to the function as arguments.
+You will be writing some functions in JavaScript. JavaScript was designed to work in the browser.  But we can use `node` to run JS in our terminal!
 
-For each exercise, create a new file. To run a file javascript file using node, you can run it from your terminal like this:
+## Objectives 
+
+- learn to write functions
+## Repo Instructions
+
+- **Fork** this repo to your account by clicking on the **fork** Button at the top of this page. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png)
+
+*A **fork** is a copy of this repository. This forked repository will appear on your github account.*
+
+- Find the repository on *YOUR* account (ie yourUserName/js-hw-loops) and click on the green `Code` button at the top of the page.
+
+![](./images/githubCodeButton.png)
+
+- Copy the path in the dialogue box
+- Navigate to a location on **your local computer in VSCode** where you keep your homework 
+- Clone this repository by typing the following command in your terminal
+
+```
+clone [`path that you just copied`]
+```
+
+For example: 
+
+```bash 
+clone git@github.com:DigitalCraftsStudents/js-lab-functions.git
+```
+## Task Instructions
+To take in user input from the terminal, we are using a package called `prompt-sync` (more on this in a later lesson). 
+- Navigate into the folder titled `js-lab-functions`
+- Open the file called `index.js` and solve the lab problem
+  - (hint: the structure to use is shown in comments)
+  - (double hint: you might need to comment out problems you have solved)
+- To run a file javascript file using node, you can run it from your terminal like this:
+```bash
+$ node index.js
+``` 
+Alternately, if you would like to bypass `prompt-sync`, create a new `js` file for each problem. Then, run a file javascript file using node from your terminal like this:
 
 ```bash
 $ node theNameOfTheFile.js
