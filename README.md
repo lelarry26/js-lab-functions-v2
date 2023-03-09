@@ -10,7 +10,7 @@ $ node theNameOfTheFile.js
 
 ## Hello, you!
 
-Write a function hello which given a name, says hello to the name. Use the following template:
+Write a function `hello` which given a name, says hello to the name. Use the following template:
 
 ```js
 function hello(name) {
