@@ -53,9 +53,6 @@ const prompt = require('prompt-sync')({sigint: true});
 // const askService = prompt("How was your service tonight?"); // askService = good, fair or poor
 // const askBill = prompt("How much is the bill"); // askBill = a number
 
-// const askService2 = prompt("How was your service tonight?"); 
-// const askBill2 = prompt("How much is the bill"); 
-
 // function tipAmount(bill, service){
 
 //   let goodService = Number(bill) * 0.20;
@@ -105,3 +102,47 @@ const prompt = require('prompt-sync')({sigint: true});
 // console.log(multiplyByFive(4, undefined)); // 4
 // console.log(multiplyByFive(10, 'true')); // 10
 // console.log(multiplyByFive(true, 10)); // true
+
+//#####################################Tip Calculator 2
+// const askService = prompt("How was your service tonight?"); // askService = good, fair or poor
+// const askBill = prompt("How much is the bill"); // askBill = a number
+
+// function tipAmount(bill, service){
+
+//   let goodService = (Number(bill) * 0.20) + Number(bill);
+//   let fairService = (Number(bill) * 0.15) + Number(bill);
+//   let poorService = (Number(bill) * 0.10) + Number(bill);
+  
+//   if(service === "good"){
+//     return "Including tip, you should pay this much for your bill:" + goodService;
+//   }else if(service === "fair"){
+//     return "Including tip, you should pay this much for your bill:" + fairService;
+//   }else if(service === "poor"){
+//     return "Including tip, you should pay this much for your bill:" + poorService;
+//   }
+// }
+
+// console.log(tipAmount(askBill, askService));
+
+
+//#####################################Tip Calculator 3
+// const askService = prompt("How was your service tonight?"); // askService = good, fair or poor
+// const askBill = prompt("How much is the bill"); // askBill = a number
+// const askParty = prompt("How many are in your party?"); // askBill = a number
+
+// function tipAmount(bill, service, party){
+
+//   let goodService = ((Number(bill) * 0.20) + Number(bill))/party;
+//   let fairService = ((Number(bill) * 0.15) + Number(bill))/party;
+//   let poorService = ((Number(bill) * 0.10) + Number(bill))/party;
+  
+//   if(service === "good"){
+//     return "Including tip, you should pay this much for your bill:" + goodService;
+//   }else if(service === "fair"){
+//     return "Including tip, you should pay this much for your bill:" + fairService;
+//   }else if(service === "poor"){
+//     return "Including tip, you should pay this much for your bill:" + poorService;
+//   }
+// }
+
+// console.log(tipAmount(askBill, askService, askParty));
